@@ -17,16 +17,14 @@ document.documentElement.style .setProperty('--h3-color', '#262626');
 
 const navbar_data = [
    {
-       brand:	"Insurance",
-       url1:	"index.html",
-       label1:	"Health Insurance",
+       brand:	"Family Health Plans",
    }
 ];
 function navbar_template(navbar) {
    return `
     <ul class="menu-list">
-        <li><i class="fas fa-band-aid fa-4x color-secondary"></i></li>
-        <li><h3>(555)555-5555</h3></li>
+        <li><h1>${navbar.brand}</h1></li>
+        <li></li>
     </ul>
  `;
 }
@@ -36,7 +34,6 @@ document.getElementById("navbar-empty").innerHTML = `${navbar_data.map(navbar_te
 
 const footer_data = [
    {
-       url1:    "https://www.facebook.com",
        label1:  "www.mylinks.com",
    }
 ];
@@ -45,20 +42,8 @@ function footer_template(foot) {
 	
     <div class="grid set-cols-1">
         <div class="column start-vertical-between">
-            <h4>The #1 Insurance Site</h4>
-            <h4>Copyright 1995 - 2019. Progressive Casualty Insurance Company. All Rights Reserved.</h4>
-            <p>We offer insurance by phone, online and through independent agents. Prices vary based on how you
-            buy.</p>
-            <p>Mobile rates are for policies purchased directly from Progressive.</p>
-             <p>*National average annual car insurance savings by new customers surveyed who saved with
-            Progressive in 2018.</p>
-            <p>Progressive Home Advantage® policies are placed through Progressive Advantage Agency, Inc. with
-            affiliated and third-party insurers who are solely responsible for claims, and pay PAA
-            commission for policies sold. Prices, coverages, privacy policies, and PAA's commission vary
-            among these insurers. How you buy (phone, online, mobile, or independent agent/broker)
-            determines which insurers are available to you. Click here for a list of the insurers or contact
-            us for more information about PAA's commission. Discounts not available in all states and
-            situations.</p>
+            <p>Copyright 2019. Family Health Plans. All Rights Reserved.</p>
+            <p>Attention:In offering this website, eHealthInsurance Services, Inc. is required to comply with all applicable federal law, including the standards established under 45 CFR 155.220(c) and (d) and standards established under 45 CFR 155.260 to protect the privacy and security of personally identifiable information. This website may not display all data on Qualified Health Plans (QHPs) being offered in your state through the Health Insurance MarketplaceSM website.</p>
         </div>
     </div>
   `;

@@ -397,7 +397,7 @@ column Helpers
 
 
 [class*="column"].layout-start {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     --insert-align-items: start;
 }
 
