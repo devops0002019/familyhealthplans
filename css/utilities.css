@@ -115,4 +115,6 @@ margin-bottom: 2em;
 }
 
 
-
+.title {
+    grid-column:1 / -1;
+}
