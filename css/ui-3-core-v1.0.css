@@ -10,9 +10,9 @@ This is the stylesheet that master the UI-3 CORE
 
 :root {
     --primary: #00108a;
-    --secondary: #00108a;
-    --tertiary: rgb(242, 242, 242);
-    --quaternary: #FAFAFA;
+    --secondary: #262626;
+    --tertiary: #fafafa;
+    --quaternary: #bbbbbb;
 
     --border: #d8d8d8;
 
@@ -55,13 +55,13 @@ This is the stylesheet that master the UI-3 CORE
     --seo-page-title-color:#000;
 
     --header-background:#fafafa;
-    --header-text-color:#fff;
+    --header-text-color:#000;
 
     --navbar-background::#fafafa;
-    --navbar-text-color:#fff;
+    --navbar-text-color:#000;
 
     --footer-background::#fafafa;
-    --footer-text-color:#fff;
+    --footer-text-color:#000;
 
 }
 
