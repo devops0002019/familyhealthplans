@@ -52,15 +52,15 @@ This is the stylesheet that master the UI-3 CORE
 
     --page-max-width: 1024px;
 
-    --seo-page-title-color:red;
+    --seo-page-title-color:#000;
 
-    --header-background:red;
+    --header-background:#fafafa;
     --header-text-color:#fff;
 
-    --navbar-background:red;
+    --navbar-background::#fafafa;
     --navbar-text-color:#fff;
 
-    --footer-background:red;
+    --footer-background::#fafafa;
     --footer-text-color:#fff;
 
 }
