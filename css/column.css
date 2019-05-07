@@ -396,10 +396,20 @@ column Helpers
 ------------------------------------------------------------------------  */
 
 
-[class*="column"].layout-start {
+[class*="column"].flex-start {
     /* border: 2px solid red; */
     --insert-align-items: start;
 }
+
+
+[class*="column"].flex[class*="100"]{
+    --insert-width: 100%;
+    --insert-align-items: center;
+}
+
+
+
+
 
 
 [class*="column"][class*="center-items"] {
