@@ -1,6 +1,13 @@
-/*
-full row healine
-------------------------------------------------------------------------*/
+.labels {
+    border-radius: 8px;
+    padding: 32px;
+    border: 1px solid var(--border);
+}
+
+
+
+
+
 
 .headline {
 
@@ -118,18 +125,4 @@ full row healine
     color: #000 !important;
 }
 
-
-.labels {
-    border-radius: 8px;
-    padding: 32px;
-    border: 1px solid var(--border);
-}
-
-
-
-.round {
-    height: 300px!important;
-    width: 300px!important;
-    border-radius: 50% !important;
-}
 
