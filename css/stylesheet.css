@@ -1,0 +1,46 @@
+.round {
+    height: 300px!important;
+    width: 300px!important;
+    border-radius: 50% !important;
+}
+
+
+[class*="column"].horizontal-iconbox {
+    --insert-display: flex;
+    --insert-justify-content: space-between;
+    --insert-align-items: none;
+    --insert-flex-direction: row;
+    --insert-background: #fff;
+    --insert-padding: 32px;
+}
+
+
+
+.labels {
+    border-radius: 8px;
+    padding: 32px;
+    border: 1px solid var(--border);
+}
+
+b {
+    font-weight: 800;
+}
+
+
+
+
+
+.company-name {
+    font-size: 1em !important;
+    --company-name: 'Family Health Plans';
+}
+
+.company-name:after {
+    content: var(--company-name) !important;
+} 
+
+
+
+h4 {
+    margin-top: 1em;
+}
