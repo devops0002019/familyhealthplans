@@ -1,7 +1,7 @@
 document.documentElement.style .setProperty('--primary', '#a9eec2');
 document.documentElement.style .setProperty('--secondary', '#ddd');
 document.documentElement.style .setProperty('--tertiary', '#FAFAFA');
-document.documentElement.style .setProperty('--quaternary', '#FAFAFA');
+document.documentElement.style .setProperty('--quaternary', '#7fa99b');
 document.documentElement.style .setProperty('--border', '#d8d8d8');
 document.documentElement.style .setProperty('--page-max-width', '1024px');
 document.documentElement.style .setProperty('--navbar-background', '#a9eec2');
@@ -24,7 +24,7 @@ function navbar_template(navbar) {
    return `
     <ul class="menu-list">
         <li><h1>${navbar.brand}</h1></li>
-        <li></li>
+        <li><i class="fas fa-child fa-4x"></i></li>
     </ul>
  `;
 }
